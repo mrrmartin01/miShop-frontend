@@ -57,14 +57,14 @@
             height: 50px;
             outline: none;
             border: 1px solid #7a7a7a;
-            border-radius: 75px;
+            border-radius: 10px;
             font-size: 20px;
             font-weight: 500;
             background-color: rgb(51, 47, 47);
             cursor: pointer;
         }
-        button:active{
-            background:  rgba(38, 87, 161, 0.5);
+        button:active {
+            box-shadow: 0 0 10px 5px rgba(217, 218, 214, 0.5);
         }
     }
 

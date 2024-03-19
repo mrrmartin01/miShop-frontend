@@ -1,3 +1,5 @@
+import { IoCart } from "react-icons/io5";
+
 import './Navbar.scss'
 import logo from '../assets/smiley.png'
 
@@ -16,7 +18,7 @@ const Navbar = () => {
       </ul>
       <div className="nav--login--cart">
         <button>Login</button>
-        <span>Cart Icon</span>
+        <span><IoCart /></span>
       </div>
     </div>
   )
