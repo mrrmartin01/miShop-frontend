@@ -1,0 +1,135 @@
+.hero {
+  background: linear-gradient(180deg, #fde1ff, rgba(225, 255, 234, 0.1333333333) 60%);
+  display: flex;
+  justify-content: space-between;
+  z-index: 0;
+}
+.hero .hero--left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10%;
+  line-height: 1;
+}
+.hero .hero--left h2 {
+  color: #090909;
+  font-size: 150%;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 2%;
+}
+.hero .hero--left p {
+  color: #171717;
+  font-size: 500%;
+  font-weight: 700;
+}
+.hero .hero--left .hand--icon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.hero .hero--left .hand--icon img {
+  width: 10%;
+}
+.hero .hero--left .hero--latest {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+  width: 50%;
+  height: 10%;
+  border-radius: 75px;
+  margin-top: 30px;
+  background: rgba(221, 224, 6, 0.808);
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+.hero .hero--left .hero--latest:hover {
+  background: linear-gradient(100deg, rgba(221, 224, 6, 0.9), rgba(42, 224, 6, 0.5), transparent);
+}
+.hero .hero--right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.hero .hero--right img {
+  width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+  #hero {
+    height: 12vh;
+    margin-top: 0.5%;
+    padding-top: 2%;
+  }
+  #hero-left {
+    gap: 0px;
+  }
+  #hero-left h2 {
+    font-size: 100%;
+    font-weight: bolder;
+  }
+  #hero-left p {
+    color: #171717;
+    font-size: 50%;
+  }
+  #hero-left #hand-icon {
+    gap: 5px;
+  }
+  #hero-left #hand-icon img {
+    width: 5%;
+  }
+  #hero-left #hero-latest {
+    gap: 1%;
+    width: 50%;
+    height: 15%;
+    font-size: 50%;
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  #hero {
+    height: 20vh;
+  }
+  #hero-left {
+    gap: 0px;
+  }
+  #hero-left h2 {
+    font-size: 200%;
+    font-weight: bolder;
+  }
+  #hero-left p {
+    color: #171717;
+    font-size: 100%;
+  }
+  #hero-left #hand-icon {
+    gap: 5px;
+  }
+  #hero-left #hand-icon img {
+    width: 3%;
+  }
+  #hero-left #hero-latest {
+    gap: 10%;
+    width: 30%;
+    height: 10%;
+    font-size: 50%;
+  }
+}
+@media screen and (min-width: 1204px) {
+  #hero {
+    height: 45vh;
+  }
+  #hero-left #hero-latest {
+    gap: 5%;
+    width: 30%;
+    height: 15%;
+    font-size: 90%;
+  }
+  #hero-left #hero-latest span {
+    display: flex;
+    text-align: center;
+  }
+}/*# sourceMappingURL=Hero.css.map */
