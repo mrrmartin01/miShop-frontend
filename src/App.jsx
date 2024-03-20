@@ -14,15 +14,15 @@ function App() {
         <BrowserRouter>
         <Navbar/>
         <Routes>
-          <Route path='./' element={<Shop/>}/>
-          <Route path='./electronics' element={<ShopCategory catetegory = 'electronics'/>}/>
-          <Route path='./fashion' element={<ShopCategory catetegory = 'fashion'/>}/>
-          <Route path='./groceries' element={<ShopCategory catetegory = 'groceries'/>}/>
-          <Route path='./product' element={<Product/>} >
+          <Route path='/' element={<Shop/>}/>
+          <Route path='/electronics' element={<ShopCategory catetegory = 'electronics'/>}/>
+          <Route path='/fashion' element={<ShopCategory catetegory = 'fashion'/>}/>
+          <Route path='/groceries' element={<ShopCategory catetegory = 'groceries'/>}/>
+          <Route path='/product' element={<Product/>} >
             <Route path=':productId' element={<Product/>} />
           </Route>
-          <Route pat='./cart' element={<Cart/>}/>
-          <Route pat='./login' element={<LoginSignup/>}/>
+          <Route pat='/cart' element={<Cart/>}/>
+          <Route pat='/login' element={<LoginSignup/>}/>
         </Routes>
         </BrowserRouter>
 

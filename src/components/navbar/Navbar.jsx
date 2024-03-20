@@ -11,9 +11,10 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       <div className="nav--logo"> 
-        <img src={logo} alt="" />
+        <img src={logo} alt="logo" />
         <p>miShop</p>
       </div>
+      
       <ul className='nav--menu'>
         <li onClick={() => {setMenu("shop")}}>
             <Link to={'/'}>Shop</Link> {menu === "shop"? <hr/> : <></>}
@@ -25,9 +26,10 @@ const Navbar = () => {
            <Link to={'fashion'}>Fashion</Link>  {menu === "fashion"? <hr/> : <></>}
         </li>
         <li onClick={() => {setMenu("groceries")}}>
-            <Link to={'groceries'}>Groceries</Link> {menu === "groceries"? <hr/> : <></>}
+            <Link to={'/groceries'}>Groceries</Link> {menu === "groceries"? <hr/> : <></>}
         </li>
       </ul>
+
       <div className="nav--login--cart">
         <Link to={'/login'}>
             <button>Login</button>

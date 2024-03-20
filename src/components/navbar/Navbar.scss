@@ -1,27 +1,27 @@
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-around;
     padding: 16px;
     box-shadow: 0 1px 3px -2px white;
 
-    .nav--logo{
+    .nav--logo {
         display: flex;
         align-items: center;
         gap: 10px;
         width: 50px;
         height: 50px;
     }
-    
-    .nav--logo img{
+
+    .nav--logo img {
         width: 100%;
     }
 
-    .nav--logo p{
+    .nav--logo p {
         font-size: 38px;
         font-weight: 600;
     }
 
-    .nav--menu{
+    .nav--menu {
         display: flex;
         align-items: center;
         list-style: none;
@@ -29,7 +29,7 @@
         font-size: 20px;
         font-weight: 500px;
 
-        li{
+        li {
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -37,7 +37,7 @@
             gap: 3px;
             cursor: pointer;
 
-            hr{
+            hr {
                 border: none;
                 width: 80%;
                 height: 3px;
@@ -45,14 +45,15 @@
                 background: #ffff;
             }
         }
-    } 
-    
-    .nav--login--cart{
-        display: flex;;
+    }
+
+    .nav--login--cart {
+        display: flex;
+        ;
         align-items: center;
         gap: 45px;
 
-         button{
+        button {
             width: 130px;
             height: 50px;
             outline: none;
@@ -63,15 +64,17 @@
             background-color: rgb(51, 47, 47);
             cursor: pointer;
         }
+
         button:active {
             box-shadow: 0 0 10px 5px rgba(217, 218, 214, 0.5);
         }
-        span{
+
+        span {
             font-size: 30px;
             cursor: pointer;
         }
 
-        .nav--cart--count{
+        .nav--cart--count {
             width: 20px;
             height: 20px;
             display: flex;
@@ -86,7 +89,7 @@
         }
     }
 
-    a{
+    a {
         text-decoration: none;
         color: #fff;
     }
