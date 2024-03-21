@@ -11,10 +11,11 @@ const Navbar = () => {
 
     const handleMenuToggle = () => {
       setShowMenu(!showMenu);
+      
     };
 
     const closeToggle = () => {
-      setShowMenu(!handleMenuToggle)
+      setShowMenu(false)
     }
 
   return (
@@ -62,16 +63,16 @@ const Navbar = () => {
         <div className = 'nav--close'>
       <span onClick={closeToggle}>x</span>
         </div>
-        <li onClick={() => {setMenu("shop")}}>
+        <li onClick={() => {setMenu("shop"), setShowMenu()}}>
             <Link to={'/'}>Shop</Link> {menu === "shop"? <hr/> : <></>}
         </li>
-        <li onClick={() => {setMenu("electronics")}}>
+        <li onClick={() => {setMenu("electronics"), setShowMenu()}}>
             <Link to={'/electronics'}>Electronics</Link> {menu === "electronics"? <hr/> : <></>}
         </li>
-        <li onClick={() => {setMenu("fashion")}}>
+        <li onClick={() => {setMenu("fashion"), setShowMenu()}}>
            <Link to={'fashion'}>Fashion</Link>  {menu === "fashion"? <hr/> : <></>}
         </li>
-        <li onClick={() => {setMenu("groceries")}}>
+        <li onClick={() => {setMenu("groceries"), setShowMenu()}}>
             <Link to={'/groceries'}>Groceries</Link> {menu === "groceries"? <hr/> : <></>}
         </li>
         <div className="btn">
