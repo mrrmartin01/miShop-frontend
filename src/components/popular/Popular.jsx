@@ -1,51 +1,10 @@
-import { useState, useEffect } from "react";
-import { fetchData } from "../assets/data.js"; // adjust the path as needed
-import Loader from "../../pages/Loader/Loader.jsx";
 
-function Popular() {
-  const [data, setData] = useState(null);
-  const [isLoading, setIsLoading] = useState(true);
-
-  useEffect(() => {
-    const fetchDataFromAPI = async () => {
-      try {
-        const result = await fetchData();
-        setData(result.products); // Set data to the products array
-        setIsLoading(false); // Set isLoading to false after successfully fetching data
-      } catch (error) {
-        console.error(error);
-        setIsLoading(false); // Set isLoading to false in case of error
-      }
-    };
-
-    fetchDataFromAPI();
-  }, []);
-
+const Popular = () => {
   return (
     <div>
-      {/* Render your component using the fetched data */}
-      {/* For example, if data is an array of products */}
-      {isLoading ? (
-        <Loader />
-      ) : (
-        data &&
-        data.map((product) => (
-          <div key={product.id}>
-            <h3>{product.title}</h3>
-            <p>{product.description}</p>
-            <p>Price: ${product.price}</p>
-            {/* Render a specific index of the images array */}
-            {product.images[1] && (
-              <img
-                src={product.images[1]}
-                alt={`Image 1 of ${product.title}`}
-              />
-            )}
-          </div>
-        ))
-      )}
+      
     </div>
-  );
+  )
 }
 
-export default Popular;
+export default Popular
