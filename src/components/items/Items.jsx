@@ -3,7 +3,7 @@ import './Items.scss';
 const items = (props) => {
   return (
     <div className='item'>
-      <img src={props.img} alt="" />
+      <img src={props.image} alt="" />
       <p>{props.name}</p>
       <div className="item--prices">
         <div className="item--price--new">

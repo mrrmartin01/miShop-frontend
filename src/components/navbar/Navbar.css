@@ -30,6 +30,28 @@
   padding: 0;
   margin: 0;
 }
+.flex-nav .nav--flex li {
+  margin-bottom: 15px;
+}
+.flex-nav .nav--flex li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+.flex-nav .nav--flex li a:hover {
+  color: #ffd700;
+}
+.flex-nav .nav--flex hr {
+  margin: 0;
+  border: 2px solid wheat;
+  border-radius: 1em;
+  height: 1px;
+  background-color: #fff;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
 .flex-nav .nav--close {
   display: flex;
   justify-content: end;
@@ -48,39 +70,6 @@
   font-size: 10px;
   cursor: pointer;
   margin-top: 10px;
-}
-
-.nav--flex li {
-  margin-bottom: 15px;
-}
-
-.nav--flex li a:active {
-  color: #ffd700;
-}
-
-.nav--flex li:last-child {
-  margin-bottom: 0;
-}
-
-.nav--flex li a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 10px;
-  font-weight: 500;
-  transition: color 0.3s ease;
-}
-
-.nav--flex li a:hover {
-  color: #ffd700;
-}
-
-.nav--flex hr {
-  margin: 0;
-  border: 2px solid wheat;
-  height: 1px;
-  background-color: #fff;
-  margin-top: 5px;
-  margin-bottom: 10px;
 }
 
 .btn {
@@ -135,6 +124,12 @@
   justify-content: center;
   gap: 3px;
   cursor: pointer;
+}
+.navbar .nav--menu li a {
+  transition: color 0.5s ease;
+}
+.navbar .nav--menu li a:hover {
+  color: #ffd700;
 }
 .navbar .nav--menu li hr {
   border: none;
