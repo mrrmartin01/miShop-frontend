@@ -9,12 +9,11 @@ const Popular = () => {
       <hr/>
       <div className="popular--item">
       {productData.map(item => (
-          <Items key={item.id} id={item.id} name={item.name} image ={item.image} new_price ={item.new_price} old_price ={item.old_price} />
+          <Items key={item.id} {...item} />
         ))}
       </div>
     </div>
   )
-  // {...item}
 }
 
 export default Popular
