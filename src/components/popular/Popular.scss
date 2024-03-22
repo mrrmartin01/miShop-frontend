@@ -14,7 +14,7 @@
   
     hr {
       width: 100%;
-      max-width: 200px;
+      max-width: 250px;
       height: 4px;
       border: none;
       background: #ccc;
@@ -27,9 +27,8 @@
       justify-content: center;
       gap: 20px;
       padding: 20px;
-      background-color: #f7f7f7; 
       border-radius: 10px; 
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Adding shadow for depth */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); 
     }
   }
   
