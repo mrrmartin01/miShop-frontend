@@ -5,6 +5,8 @@
   margin: auto;
   padding: 0px 140px;
   margin-bottom: 150px;
+  border-radius: 1rem;
+  margin-top: 1%;
   background: linear-gradient(180deg, #fde1ff 0%, rgba(225, 255, 234, 0.1333333333) 60%);
 }
 .offers .offers--left {
@@ -27,8 +29,8 @@
   margin-top: 20%;
 }
 .offers .offers--left button {
-  width: 280px;
-  height: 70px;
+  width: 200px;
+  height: 50px;
   border-radius: 35px;
   background: #41dd11;
   border: none;
@@ -37,6 +39,9 @@
   font-weight: 500;
   margin-top: 30px;
   cursor: pointer;
+}
+.offers .offers--left button:hover {
+  background: linear-gradient(100deg, rgba(27, 240, 7, 0.897), rgb(201, 255, 7) 95%);
 }
 .offers .offers--right {
   flex: 1;
