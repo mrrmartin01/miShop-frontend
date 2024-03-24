@@ -44,6 +44,7 @@
   background: rgba(221, 224, 6, 0.808);
   font-weight: 500;
   transition: background-color 0.3s ease;
+  cursor: pointer;
 }
 .hero .hero--left .hero--latest:hover {
   background: linear-gradient(100deg, rgba(221, 224, 6, 0.9), rgba(42, 224, 6, 0.5), transparent);

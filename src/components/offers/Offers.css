@@ -4,9 +4,9 @@
   display: flex;
   margin: auto;
   padding: 0px 140px;
-  margin-bottom: 150px;
+  margin-bottom: 10px;
   border-radius: 1rem;
-  margin-top: 1%;
+  margin-top: 3%;
   background: linear-gradient(180deg, #fde1ff 0%, rgba(225, 255, 234, 0.1333333333) 60%);
 }
 .offers .offers--left {
