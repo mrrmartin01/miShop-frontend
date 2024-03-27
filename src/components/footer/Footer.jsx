@@ -1,5 +1,7 @@
 import './Footer.scss'
 import logo from '../assets/smiley.png'
+import { FaInstagram,FaFacebookF, FaWhatsapp  } from "react-icons/fa6";
+
 
 const Footer = () => {
   return (
@@ -17,13 +19,13 @@ const Footer = () => {
       </ul>
       <div className="footer-social-icons">
         <div className="footer-icons-container">
-            <span>IG</span>
+            <span><FaInstagram/></span>
         </div>
         <div className="footer-icons-container">
-            <span>FaceBook</span>
+            <span><FaFacebookF/></span>
         </div>
         <div className="footer-icons-container">
-            <span>Whats&apos;App</span>
+            <span><FaWhatsapp /></span>
         </div>
       </div>
       <div className="footer-copyright">
