@@ -8,7 +8,7 @@ const ShopContextProvider = (props) => {
 
   useEffect(() => {
     fetch("http://localhost:5173/src/components/products.json")
-      .then((res) => res.json)
+      .then((res) => res.json())
       .then((res) => setAll_products(res))
       .catch((err) => {
         alert("failed to fetch " + err.message);
