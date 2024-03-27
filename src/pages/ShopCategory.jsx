@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import { useContext } from 'react';
 import './scss/ShopCategory.scss';
 import { ShopContext } from '../context/ShopContext';
-import Items from "../components/items/Items";
+import CategoryHolder from "../components/category_holder/CategoryHolder";
 
 const ShopCategory = (props) => {
   const{all_products} = useContext(ShopContext);
@@ -19,8 +19,8 @@ const ShopCategory = (props) => {
       </div>
       <div className="shopcategory-products">
         {all_products.map((item) =>{
-          if (props.category === Items.category){
-            return <Items key ={item.id} {...item}/>
+          if (props.category === CategoryHolder.category){
+            return <CategoryHolder key ={item.id} {...item}/>
           }
         else{
           return null

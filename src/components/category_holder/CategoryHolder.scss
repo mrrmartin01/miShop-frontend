@@ -1,0 +1,55 @@
+// CategoryHolder.scss
+
+.item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  
+    img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-bottom: 12px;
+    }
+  
+    p {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+  
+    span {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      color: #333;
+      margin-bottom: 8px;
+  
+      svg {
+        margin-right: 4px;
+      }
+    }
+  
+    .item--prices {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+      .item--price--brand {
+        font-size: 14px;
+        color: #999;
+      }
+  
+      .item--price {
+        font-size: 20px;
+        font-weight: bold;
+        color: #333;
+        margin-top: 8px;
+      }
+    }
+  }
+  
