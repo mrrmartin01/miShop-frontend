@@ -1,6 +1,7 @@
 import "./Items.scss";
+import PropTypes from "prop-types"
 
-const items = (props) => {
+const Items = (props) => {
   return (
     <div className="item">
       <img src={props.image} alt="" />
@@ -15,4 +16,12 @@ const items = (props) => {
   );
 };
 
-export default items;
+Items.propTypes = {
+  image: PropTypes.string,
+  name: PropTypes.string,
+  new_price: PropTypes.number,
+  old_price: PropTypes.number,
+
+}
+
+export default Items;

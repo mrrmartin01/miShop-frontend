@@ -34,6 +34,9 @@ const Navbar = () => {
         <li onClick={() => {setMenu("electronics")}}>
             <Link to={'/electronics'}>Electronics</Link> {menu === "electronics"? <hr/> : <></>}
         </li>
+        <li onClick={() => {setMenu("decor")}}>
+            <Link to={'/decor'}>Decor</Link> {menu === "decor"? <hr/> : <></>}
+        </li>
         <li onClick={() => {setMenu("fashion")}}>
            <Link to={'fashion'}>Fashion</Link>  {menu === "fashion"? <hr/> : <></>}
         </li>
@@ -68,6 +71,9 @@ const Navbar = () => {
         </li>
         <li onClick={() => {setMenu("electronics"), setShowMenu()}}>
             <Link to={'/electronics'}>Electronics</Link> {menu === "electronics"? <hr/> : <></>}
+        </li>
+        <li onClick={() => {setMenu("decor"), setShowMenu()}}>
+            <Link to={'/decor'}>Decor</Link> {menu === "decor"? <hr/> : <></>}
         </li>
         <li onClick={() => {setMenu("fashion"), setShowMenu()}}>
            <Link to={'fashion'}>Fashion</Link>  {menu === "fashion"? <hr/> : <></>}

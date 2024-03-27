@@ -2,10 +2,10 @@ import PropTypes from "prop-types";
 import { useContext } from 'react';
 import './scss/ShopCategory.scss';
 import { ShopContext } from '../context/ShopContext';
-import items from "../components/items/Items";
+import Items from "../components/items/Items";
 
 const ShopCategory = (props) => {
-  const{fetchData} = useContext(ShopContext);
+  const{all_products} = useContext(ShopContext);
   return (
     <div className="shop-category">
       <img src={props.banner} alt="" />
@@ -18,8 +18,8 @@ const ShopCategory = (props) => {
       </div>
       </div>
       <div className="shopcategory-products">
-        {fetchData.map((item) =>{
-          if (props.category === items.category){
+        {all_products.map((item) =>{
+          if (props.category === Items.category){
             return <Items key ={item.id} {...item}/>
           }
         else{
@@ -31,7 +31,8 @@ const ShopCategory = (props) => {
   )
 }
 ShopCategory.propTypes = {
-  banner: PropTypes.any
+  banner: PropTypes.any,
+  category:PropTypes.string
 }
 
 export default ShopCategory
