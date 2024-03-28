@@ -20,15 +20,15 @@ function App() {
         <Navbar/>
         <Routes>
           <Route path='/' element={<Shop/>}/>
-          <Route path='/electronics' element={<ShopCategory banner = {electronics_banner} catetegory = 'electronics'/>}/>
-          <Route path='/decor' element={<ShopCategory banner = {decor_banner} catetegory = 'decor'/>}/>
-          <Route path='/fashion' element={<ShopCategory banner ={fashion_banner} catetegory = 'fashion'/>}/>
-          <Route path='/groceries' element={<ShopCategory banner ={groceries_banner} catetegory = 'groceries'/>}/>
+          <Route path='/electronics' element={<ShopCategory banner = {electronics_banner} category = 'electronics'/>}/>
+          <Route path='/decor' element={<ShopCategory banner = {decor_banner} category = 'decor'/>}/>
+          <Route path='/fashion' element={<ShopCategory banner ={fashion_banner} category = 'fashion'/>}/>
+          <Route path='/groceries' element={<ShopCategory banner ={groceries_banner} category = 'groceries'/>}/>
           <Route path='/product' element={<Product/>} >
             <Route path=':productId' element={<Product/>} />
           </Route>
-          <Route pat='/cart' element={<Cart/>}/>
-          <Route pat='/login' element={<LoginSignup/>}/>
+          <Route path='/cart' element={<Cart/>}/>
+          <Route path='/login' element={<LoginSignup/>}/>
         </Routes>
         <Footer/>
         </BrowserRouter>

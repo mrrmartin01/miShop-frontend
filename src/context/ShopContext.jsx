@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import { createContext } from "react";
-import all_products from "../components/assets/products";
+import all_products from "../components/assets/products.js";
 
 export const ShopContext = createContext(null);
 

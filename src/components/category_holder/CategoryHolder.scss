@@ -1,10 +1,7 @@
 // CategoryHolder.scss
 
-.item {
-    border: 1px solid #ccc;
-    border-radius: 8px;
+.category {
     padding: 16px;
-    margin-bottom: 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,7 +9,7 @@
   
     img {
       max-width: 100%;
-      border-radius: 8px;
+      height: 60%;
       margin-bottom: 12px;
     }
   
@@ -34,17 +31,17 @@
       }
     }
   
-    .item--prices {
+    .category--prices {
       display: flex;
       flex-direction: column;
       align-items: center;
   
-      .item--price--brand {
+      .category--price--brand {
         font-size: 14px;
         color: #999;
       }
   
-      .item--price {
+      .category--price {
         font-size: 20px;
         font-weight: bold;
         color: #333;

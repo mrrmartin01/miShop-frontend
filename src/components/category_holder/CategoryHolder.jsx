@@ -5,13 +5,14 @@ import { FaRegStar } from "react-icons/fa";
 
 const CategoryHolder = (props) => {
   return (
-    <div className="item">
-      <img src={props.images[0]} alt="" />
+    <div className="category">
+      <img src={props.images[1]} alt="" />
+      <p>{props.brand}</p>
       <p>{props.title}</p>
-    <span><FaRegStar/> * {Math.floor(props.rating)} </span>
-      <div className="item--prices">
-        <div className="item--price--brand">{props.old_price ? `$${props.old_price}` : null}</div>
-        <div className="item--price">
+    <span><FaRegStar/>{ Math.floor(props.rating)} </span>
+      <div className="category--prices">
+        <div className="category--price--brand">{props.discountPercentage ? props.discountPercentage + '%': null}</div>
+        <div className="category--price">
         ${props.price}
         </div>
       </div>
@@ -22,9 +23,10 @@ const CategoryHolder = (props) => {
 CategoryHolder.propTypes = {
   images: PropTypes.string,
   title: PropTypes.string,
+  brand: PropTypes.string,
   rating: PropTypes.number,
   price: PropTypes.number,
-  old_price: PropTypes.number,
+  discountPercentage: PropTypes.number,
 
 }
 
