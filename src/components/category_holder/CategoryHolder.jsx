@@ -39,7 +39,7 @@ const CategoryHolder = (props) => {
       </Link>
       <p>{props.brand}</p>
       <p>{props.title}</p>
-      <div className="stars">{renderStars()}</div>
+      <div className="stars">{renderStars()}<span>{props.rating}</span></div>
       <div className="category--prices">
         <div className="category--price--brand">
           {props.discountPercentage ? props.discountPercentage + "%" : null}  

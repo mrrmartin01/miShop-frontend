@@ -17,13 +17,21 @@
   
 
   
-  .star{
+  .stars{
     color: #f7f700;
+    display: flex;
+    place-items: center;
+
+    span{
+      padding-left: 3%;
+      color: #fff;
+      font-weight: 700;
+      font-family: cursive;
+    }
   }
 
   .filled{
     color: #ffd700;
-    font-size: 20px;
   }
   .half{
     color: #f7f700;

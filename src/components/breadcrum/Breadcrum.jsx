@@ -8,7 +8,7 @@ const Breadcrum = (props) => {
   return (
     <div className="breadcrum">
       HOME <span><MdOutlineKeyboardArrowRight/></span> SHOP <span><MdOutlineKeyboardArrowRight/></span>
-      {product && product.category} <span><MdOutlineKeyboardArrowRight/></span> {product && product.name}
+      {product && product.category} <span><MdOutlineKeyboardArrowRight/></span> {product && product.title}
     </div>
   );
 };

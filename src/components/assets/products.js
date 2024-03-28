@@ -637,10 +637,10 @@ let all_products = [
     stock: 68,
     brand: "AmnaMart",
     category: "decor",
-    thumbnail: "https://cdn.dummyjson.com/product-images/35/thumbnail.jpg",
+    thumbnail: "https://cdn.dummyjson.com/product-images/35/3.jpg",
     images: [
       "https://cdn.dummyjson.com/product-images/35/1.jpg",
-      "https://cdn.dummyjson.com/product-images/35/3.jpg",
+      "https://cdn.dummyjson.com/product-images/35/2.jpg",
       "https://cdn.dummyjson.com/product-images/35/3.jpg",
       "https://cdn.dummyjson.com/product-images/35/4.jpg",
       "https://cdn.dummyjson.com/product-images/35/thumbnail.jpg"
