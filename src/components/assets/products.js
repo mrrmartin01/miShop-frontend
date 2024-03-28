@@ -5,7 +5,7 @@ let all_products = [
     description: "An apple mobile which is nothing like apple",
     price: 549,
     discountPercentage: 12.96,
-    rating: 4.69,
+    rating: 4.79,
     stock: 94,
     brand: "Apple",
     category: "electronics",
@@ -42,12 +42,15 @@ let all_products = [
     description: "Samsung's new variant which goes beyond Galaxy to the Universe",
     price: 1249,
     discountPercentage: 15.46,
-    rating: 4.09,
+    rating: 2.09,
     stock: 36,
     brand: "Samsung",
-    category: "smartphones",
+    category: "electronics",
     thumbnail: "https://cdn.dummyjson.com/product-images/3/thumbnail.jpg",
-    images: ["https://cdn.dummyjson.com/product-images/3/1.jpg"]
+    images: ["https://cdn.dummyjson.com/product-images/3/1.jpg",
+     "https://cdn.dummyjson.com/product-images/3/1.jpg",
+    
+    ]
   },
   {
     id: 4,
@@ -55,7 +58,7 @@ let all_products = [
     description: "OPPO F19 is officially announced on April 2021.",
     price: 280,
     discountPercentage: 17.91,
-    rating: 4.3,
+    rating: 1.3,
     stock: 123,
     brand: "OPPO",
     category: "electronics",
@@ -618,7 +621,7 @@ let all_products = [
     thumbnail: "https://cdn.dummyjson.com/product-images/34/thumbnail.jpg",
     images: [
       "https://cdn.dummyjson.com/product-images/34/1.jpg",
-      "https://cdn.dummyjson.com/product-images/34/2.jpg",
+      "https://cdn.dummyjson.com/product-images/34/thumbnail.jpg",
       "https://cdn.dummyjson.com/product-images/34/3.jpg",
       "https://cdn.dummyjson.com/product-images/34/4.jpg",
       "https://cdn.dummyjson.com/product-images/34/thumbnail.jpg"
@@ -626,7 +629,7 @@ let all_products = [
   },
   {
     id: 35,
-    title: "3 DOOR PORTABLE",
+    title: "3 door portable wardrobe",
     description: "Material: Stainless Steel and Fabric  Item Size: 110 cm x 45 cm x 175 cm Package Contents: 1 Storage Wardrobe",
     price: 41,
     discountPercentage: 7.98,
@@ -637,7 +640,7 @@ let all_products = [
     thumbnail: "https://cdn.dummyjson.com/product-images/35/thumbnail.jpg",
     images: [
       "https://cdn.dummyjson.com/product-images/35/1.jpg",
-      "https://cdn.dummyjson.com/product-images/35/2.jpg",
+      "https://cdn.dummyjson.com/product-images/35/3.jpg",
       "https://cdn.dummyjson.com/product-images/35/3.jpg",
       "https://cdn.dummyjson.com/product-images/35/4.jpg",
       "https://cdn.dummyjson.com/product-images/35/thumbnail.jpg"

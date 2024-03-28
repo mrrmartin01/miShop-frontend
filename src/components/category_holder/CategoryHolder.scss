@@ -1,52 +1,66 @@
 // CategoryHolder.scss
 
 .category {
-    padding: 16px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  
-    img {
-      max-width: 100%;
-      height: 60%;
-      margin-bottom: 12px;
-    }
-  
-    p {
-      font-size: 18px;
-      font-weight: bold;
-      margin-bottom: 8px;
-    }
-  
-    span {
-      display: flex;
-      align-items: center;
-      font-size: 14px;
-      color: #333;
-      margin-bottom: 8px;
-  
-      svg {
-        margin-right: 4px;
-      }
-    }
-  
-    .category--prices {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-  
-      .category--price--brand {
-        font-size: 14px;
-        color: #999;
-      }
-  
-      .category--price {
-        font-size: 20px;
-        font-weight: bold;
-        color: #333;
-        margin-top: 8px;
-      }
-    }
+  padding: 16px;
+  box-shadow: 0px 2px 10px rgba(255, 254, 254, 0.1);
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    transform: translateY(-4px);
+  }
+
+  img {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 12px;
   }
   
+
+  
+  .star{
+    color: #f7f700;
+  }
+
+  .filled{
+    color: #ffd700;
+    font-size: 20px;
+  }
+  .half{
+    color: #f7f700;
+  }
+
+  p {
+    margin: 0;
+    font-size: 16px;
+    color: #fff;
+  }
+
+  .category--prices {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+  }
+
+  .category--price--brand {
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffc;
+    display: flex;
+    flex-direction: column;
+
+    span{
+      font-size: 14px;
+      color: #ff6b6b;
+      font-weight: 500;
+    }
+  }
+
+  .category--price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #cfc6c6;
+  }
+}
+
+
