@@ -1,5 +1,5 @@
-import "./CategoryHolder.scss";
 import PropTypes from "prop-types";
+import "./CategoryHolder.scss";
 import { Link } from "react-router-dom";
 import { FaRegStar, FaStar } from "react-icons/fa";
 
@@ -34,8 +34,8 @@ const CategoryHolder = (props) => {
 
   return (
     <div className="category">
-      <Link to={`/product/${props.id}`}>
-        <img src={props.images[1]} alt="" />
+      <Link to={`/product/${props.id}`} >
+        <img src={props.images[1]} alt=""  />
       </Link>
       <p>{props.brand}</p>
       <p>{props.title}</p>
@@ -59,7 +59,7 @@ CategoryHolder.propTypes = {
   rating: PropTypes.number,
   price: PropTypes.number,
   discountPercentage: PropTypes.number,
-  id: PropTypes.string.isRequired,
+  id: PropTypes.number.isRequired,
 };
 
 export default CategoryHolder;
