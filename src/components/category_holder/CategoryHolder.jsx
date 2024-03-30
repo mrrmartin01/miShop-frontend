@@ -35,7 +35,7 @@ const CategoryHolder = (props) => {
   return (
     <div className="category">
       <Link to={`/product/${props.id}`} >
-        <img src={props.images[1]} alt=""  />
+      <img onClick={() => { window.scroll(0, 0); }} src={props.images[1]} alt="" />
       </Link>
       <p>{props.brand}</p>
       <p>{props.title}</p>

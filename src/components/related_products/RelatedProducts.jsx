@@ -6,9 +6,6 @@ import CategoryHolder from "../category_holder/CategoryHolder";
 
 const RelatedProducts = ({ family }) => {
   const { all_products } = useContext(ShopContext);
-
-   
-
   const relatedProducts = all_products.filter(
     (item) => item.family === family
   );

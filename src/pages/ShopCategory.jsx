@@ -20,10 +20,10 @@ const ShopCategory = (props) => {
         Sort by <span><IoIosArrowDropdownCircle/></span>
       </div>
       </div>
-      <div className="shopcategory-products">
-        {all_products.map((item) =>{
+      <div className="shopcategory-products" >
+        {all_products.map((item,i) =>{
           if (props.category === item.category){
-            return <CategoryHolder key={item.key} {...item}/>
+            return <CategoryHolder key={i} {...item}/>
           }
         else{
           return null
