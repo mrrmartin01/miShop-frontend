@@ -1,9 +1,11 @@
 import PropTypes from "prop-types";
 import "./ProductDisplay.scss";
-import { useState } from "react";
+import { useContext, useState } from "react";
+import { ShopContext } from "../../context/ShopContext";
 
 const ProductDisplay = (props) => {
   const { product } = props;
+  const {addToCart} = useContext(ShopContext);
   const [image, setImage] = useState(product.thumbnail);
 
   const handleImageChange = (newImage) => {
@@ -53,7 +55,7 @@ const ProductDisplay = (props) => {
             <div className="">XXL</div>
           </div>
         </div>
-        <button>ADD TO CART</button>
+        <button onClick={() =>{addToCart(product.id)}}>ADD TO CART</button>
         <p className="productdisplay-right-category">
           <span>Category :</span> Electronics, mobile, phones
         </p>
