@@ -8,6 +8,7 @@ let all_products = [
     rating: 4.79,
     stock: 94,
     brand: "Apple",
+    family: "Phone", 
     category: "electronics",
     thumbnail: "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg",
     images: [
@@ -27,6 +28,7 @@ let all_products = [
     rating: 4.44,
     stock: 34,
     brand: "Apple",
+    family: "Phone", 
     category: "electronics",
     thumbnail: "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg",
     images: [
@@ -45,6 +47,7 @@ let all_products = [
     rating: 2.09,
     stock: 36,
     brand: "Samsung",
+    family: "Phone", 
     category: "electronics",
     thumbnail: "https://cdn.dummyjson.com/product-images/3/thumbnail.jpg",
     images: ["https://cdn.dummyjson.com/product-images/3/1.jpg",
@@ -61,6 +64,7 @@ let all_products = [
     rating: 1.3,
     stock: 123,
     brand: "OPPO",
+    family: "Phone", 
     category: "electronics",
     thumbnail: "https://cdn.dummyjson.com/product-images/4/thumbnail.jpg",
     images: [
@@ -80,6 +84,7 @@ let all_products = [
     rating: 4.09,
     stock: 32,
     brand: "Huawei",
+    family: "Phone", 
     category: "electronics",
     thumbnail: "https://cdn.dummyjson.com/product-images/5/thumbnail.jpg",
     images: [
@@ -97,6 +102,7 @@ let all_products = [
     rating: 4.57,
     stock: 83,
     brand: "Apple",
+    family: "Laptop", 
     category: "electronics",
     thumbnail: "https://cdn.dummyjson.com/product-images/6/thumbnail.png",
     images: [
@@ -115,6 +121,7 @@ let all_products = [
     rating: 4.25,
     stock: 50,
     brand: "Samsung",
+    family: "Laptop", 
     category: "electronics",
     thumbnail: "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
     images: [
@@ -133,6 +140,7 @@ let all_products = [
     rating: 4.43,
     stock: 68,
     brand: "Microsoft Surface",
+    family: "Laptop", 
     category: "electronics",
     thumbnail: "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
     images: [
@@ -152,6 +160,7 @@ let all_products = [
     rating: 4.54,
     stock: 96,
     brand: "Infinix",
+    family: "Laptop", 
     category: "electronics",
     thumbnail: "https://cdn.dummyjson.com/product-images/9/thumbnail.jpg",
     images: [
@@ -171,6 +180,7 @@ let all_products = [
     rating: 4.43,
     stock: 89,
     brand: "HP Pavilion",
+    family: "Laptop", 
     category: "electronics",
     thumbnail: "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
     images: [
@@ -182,13 +192,14 @@ let all_products = [
   },
   {
     id: 11,
-    title: "perfume Oil",
+    title: "Perfume Oil",
     description: "Mega Discount, Impression of Acqua Di Gio by GiorgioArmani concentrated attar perfume Oil",
     price: 13,
     discountPercentage: 8.4,
     rating: 4.26,
     stock: 65,
     brand: "Impression of Acqua Di Gio",
+    family: "Perfume oil", 
     category: "fashion",
     thumbnail: "https://cdn.dummyjson.com/product-images/11/thumbnail.jpg",
     images: [
@@ -207,6 +218,7 @@ let all_products = [
     rating: 4,
     stock: 52,
     brand: "Royal_Mirage",
+    family: "Perfume", 
     category: "fashion",
     thumbnail: "https://cdn.dummyjson.com/product-images/12/thumbnail.jpg",
     images: [
@@ -226,6 +238,7 @@ let all_products = [
     rating: 4.59,
     stock: 61,
     brand: "Fog Scent Xpressio",
+    family: "Perfume", 
     category: "fashion",
     thumbnail: "https://cdn.dummyjson.com/product-images/13/thumbnail.webp",
     images: [
@@ -245,6 +258,7 @@ let all_products = [
     rating: 4.21,
     stock: 114,
     brand: "Al Munakh",
+    family: "Perfume oil", 
     category: "fashion",
     thumbnail: "https://cdn.dummyjson.com/product-images/14/thumbnail.jpg",
     images: [
@@ -263,6 +277,7 @@ let all_products = [
     rating: 4.7,
     stock: 105,
     brand: "Lord - Al-Rehab",
+    family: "Perfume", 
     category: "fashion",
     thumbnail: "https://cdn.dummyjson.com/product-images/15/thumbnail.jpg",
     images: [
@@ -282,6 +297,7 @@ let all_products = [
     rating: 4.83,
     stock: 110,
     brand: "L'Oreal Paris",
+    family: "Perfume", 
     category: "fashion",
     thumbnail: "https://cdn.dummyjson.com/product-images/16/thumbnail.jpg",
     images: [
@@ -301,6 +317,7 @@ let all_products = [
     rating: 4.52,
     stock: 78,
     brand: "Hemani Tea",
+    family: "skin care", 
     category: "fashion",
     thumbnail: "https://cdn.dummyjson.com/product-images/17/thumbnail.jpg",
     images: [
@@ -319,6 +336,7 @@ let all_products = [
     rating: 4.56,
     stock: 88,
     brand: "Dermive",
+    family: "skin care", 
     category: "fashion",
     thumbnail: "https://cdn.dummyjson.com/product-images/18/thumbnail.jpg",
     images: [
@@ -338,6 +356,7 @@ let all_products = [
     rating: 4.42,
     stock: 54,
     brand: "ROREC White Rice",
+    family: "skin care", 
     category: "fashion",
     thumbnail: "https://cdn.dummyjson.com/product-images/19/thumbnail.jpg",
     images: [
@@ -356,6 +375,7 @@ let all_products = [
     rating: 4.06,
     stock: 140,
     brand: "Fair & Clear",
+    family: "skin care", 
     category: "fashion",
     thumbnail: "https://cdn.dummyjson.com/product-images/20/thumbnail.jpg",
     images: [
@@ -375,6 +395,7 @@ let all_products = [
     rating: 4.44,
     stock: 133,
     brand: "Saaf & Khaas",
+    family: "foodstuff", 
     category: "groceries",
     thumbnail: "https://cdn.dummyjson.com/product-images/21/thumbnail.png",
     images: [
@@ -392,6 +413,7 @@ let all_products = [
     rating: 4.57,
     stock: 146,
     brand: "Bake Parlor Big",
+    family: "foodstuff", 
     category: "groceries",
     thumbnail: "https://cdn.dummyjson.com/product-images/22/thumbnail.jpg",
     images: [
@@ -402,13 +424,14 @@ let all_products = [
   },
   {
     id: 23,
-    title: "Orange Essence Food Flavou",
+    title: "Orange Essence Food Flavour",
     description: "Specifications of Orange Essence Food Flavour For Cakes and Baking Food Item",
     price: 14,
     discountPercentage: 8.04,
     rating: 4.85,
     stock: 26,
     brand: "Baking Food Items",
+    family: "foodstuff", 
     category: "groceries",
     thumbnail: "https://cdn.dummyjson.com/product-images/23/thumbnail.jpg",
     images: [
@@ -428,6 +451,7 @@ let all_products = [
     rating: 4.94,
     stock: 113,
     brand: "fauji",
+    family: "foodstuff", 
     category: "groceries",
     thumbnail: "https://cdn.dummyjson.com/product-images/24/thumbnail.jpg",
     images: [
@@ -447,6 +471,7 @@ let all_products = [
     rating: 4.87,
     stock: 47,
     brand: "Dry Rose",
+    family: "foodstuff", 
     category: "groceries",
     thumbnail: "https://cdn.dummyjson.com/product-images/25/thumbnail.jpg",
     images: [
@@ -466,6 +491,7 @@ let all_products = [
     rating: 4.08,
     stock: 131,
     brand: "Boho Decor",
+    family: "home decor", 
     category: "decor",
     thumbnail: "https://cdn.dummyjson.com/product-images/26/thumbnail.jpg",
     images: [
@@ -486,6 +512,7 @@ let all_products = [
     rating: 4.41,
     stock: 17,
     brand: "Flying Wooden",
+    family: "home decor", 
     category: "decor",
     thumbnail: "https://cdn.dummyjson.com/product-images/27/thumbnail.webp",
     images: [
@@ -505,6 +532,7 @@ let all_products = [
     rating: 4.82,
     stock: 54,
     brand: "LED Lights",
+    family: "home decor", 
     category: "decor",
     thumbnail: "https://cdn.dummyjson.com/product-images/28/thumbnail.jpg",
     images: [
@@ -524,6 +552,7 @@ let all_products = [
     rating: 4.44,
     stock: 7,
     brand: "luxury palace",
+    family: "home decor", 
     category: "decor",
     thumbnail: "https://cdn.dummyjson.com/product-images/29/thumbnail.webp",
     images: [
@@ -543,6 +572,7 @@ let all_products = [
     rating: 4.92,
     stock: 54,
     brand: "Golden",
+    family: "home decor", 
     category: "decor",
     thumbnail: "https://cdn.dummyjson.com/product-images/30/thumbnail.jpg",
     images: [
@@ -561,6 +591,7 @@ let all_products = [
     rating: 4.16,
     stock: 140,
     brand: "Furniture Bed Set",
+    family: "Bed", 
     category: "decor",
     thumbnail: "https://cdn.dummyjson.com/product-images/31/thumbnail.jpg",
     images: [
@@ -580,6 +611,7 @@ let all_products = [
     rating: 4.74,
     stock: 30,
     brand: "Ratttan Outdoor",
+    family: "Sofa", 
     category: "decor",
     thumbnail: "https://cdn.dummyjson.com/product-images/32/thumbnail.jpg",
     images: [
@@ -598,6 +630,7 @@ let all_products = [
     rating: 4.31,
     stock: 106,
     brand: "Kitchen Shelf",
+    family: "shelf", 
     category: "decor",
     thumbnail: "https://cdn.dummyjson.com/product-images/33/thumbnail.jpg",
     images: [
@@ -617,6 +650,7 @@ let all_products = [
     rating: 4.01,
     stock: 136,
     brand: "Multi Purpose",
+    family: "table", 
     category: "decor",
     thumbnail: "https://cdn.dummyjson.com/product-images/34/thumbnail.jpg",
     images: [
@@ -636,6 +670,7 @@ let all_products = [
     rating: 4.06,
     stock: 68,
     brand: "AmnaMart",
+    family: "wardrobe", 
     category: "decor",
     thumbnail: "https://cdn.dummyjson.com/product-images/35/3.jpg",
     images: [
@@ -655,6 +690,7 @@ let all_products = [
     rating: 4.26,
     stock: 39,
     brand: "Professional Wear",
+    family: "women fashion", 
     category: "fashion",
     thumbnail: "https://cdn.dummyjson.com/product-images/36/thumbnail.jpg",
     images: [
@@ -667,13 +703,14 @@ let all_products = [
   },
   {
     id: 37,
-    title: "ank Tops for Womens/Girls",
+    title: "Tank Tops for Womens/Girls",
     description: "PACK OF 3 CAMISOLES ,VERY COMFORTABLE SOFT COTTON STUFF, COMFORTABLE IN ALL FOUR SEASONS",
     price: 50,
-    discountPercentage: 12.05,
+    discountPercentage: 12,
     rating: 4.52,
     stock: 107,
     brand: "Soft Cotton",
+    family: "women fashion", 
     category: "fashion",
     thumbnail: "https://cdn.dummyjson.com/product-images/37/thumbnail.jpg",
     images: [
@@ -693,6 +730,7 @@ let all_products = [
     rating: 4.8,
     stock: 20,
     brand: "Soft Cotton",
+    family: "kids fashion ", 
     category: "fashion",
     thumbnail: "https://cdn.dummyjson.com/product-images/38/thumbnail.jpg",
     images: [
@@ -711,6 +749,7 @@ let all_products = [
     rating: 4.55,
     stock: 55,
     brand: "Top Sweater",
+    family: "women fashion", 
     category: "fashion",
     thumbnail: "https://cdn.dummyjson.com/product-images/39/thumbnail.jpg",
     images: [
@@ -730,6 +769,7 @@ let all_products = [
     rating: 4.91,
     stock: 84,
     brand: "Top Sweater",
+    family: "women fashion", 
     category: "fashion",
     thumbnail: "https://cdn.dummyjson.com/product-images/40/thumbnail.jpg",
     images: [
@@ -746,6 +786,7 @@ let all_products = [
     rating: 4.65,
     stock: 21,
     brand: "RED MICKY MOUSE..",
+    family: "women fashion", 
     category: "fashion",
     thumbnail: "https://cdn.dummyjson.com/product-images/41/thumbnail.webp",
     images: [
@@ -765,8 +806,9 @@ let all_products = [
     rating: 4.05,
     stock: 148,
     brand: "Digital Printed",
+    family: "women fashion", 
     category: "fashion",
-    thumbnail: "https://cdn.dummyjson.com/product-images/42/thumbnail.jpg",
+    thumbnail: "https://cdn.dummyjson.com/product-images/42/1.jpg",
     images: [
       "https://cdn.dummyjson.com/product-images/42/1.png",
       "https://cdn.dummyjson.com/product-images/42/2.png",
@@ -784,6 +826,7 @@ let all_products = [
     rating: 4.31,
     stock: 150,
     brand: "Ghazi Fabric",
+    family: "women fashion", 
     category: "fashion",
     thumbnail: "https://cdn.dummyjson.com/product-images/43/thumbnail.jpg",
     images: [
@@ -803,6 +846,7 @@ let all_products = [
     rating: 4.03,
     stock: 2,
     brand: "Ghazi Fabric",
+    family: "women fashion", 
     category: "fashion",
     thumbnail: "https://cdn.dummyjson.com/product-images/44/thumbnail.jpg",
     images: [
@@ -822,6 +866,7 @@ let all_products = [
     rating: 4.67,
     stock: 96,
     brand: "IELGY",
+    family: "women fashion ", 
     category: "fashion",
     thumbnail: "https://cdn.dummyjson.com/product-images/45/thumbnail.jpg",
     images: [
@@ -841,6 +886,7 @@ let all_products = [
     rating: 4.14,
     stock: 72,
     brand: "IELGY fashion",
+    family: "women shoe", 
     category: "fashion",
     thumbnail: "https://cdn.dummyjson.com/product-images/46/thumbnail.jpg",
     images: [
@@ -860,6 +906,7 @@ let all_products = [
     rating: 4.19,
     stock: 50,
     brand: "Synthetic Leather",
+    family: "women shoe", 
     category: "fashion",
     thumbnail: "https://cdn.dummyjson.com/product-images/47/thumbnail.jpeg",
     images: [
@@ -878,6 +925,7 @@ let all_products = [
     rating: 4.02,
     stock: 25,
     brand: "Sandals Flip Flops",
+    family: "women shoe", 
     category: "fashion",
     thumbnail: "https://cdn.dummyjson.com/product-images/48/thumbnail.jpg",
     images: [
@@ -897,6 +945,7 @@ let all_products = [
     rating: 4.72,
     stock: 107,
     brand: "Maasai Sandals",
+    family: "women shoe", 
     category: "fashion",
     thumbnail: "https://cdn.dummyjson.com/product-images/49/thumbnail.jpg",
     images: [
@@ -915,6 +964,7 @@ let all_products = [
     rating: 4.33,
     stock: 46,
     brand: "Arrivals Genuine",
+    family: "women shoe", 
     category: "fashion",
     thumbnail: "https://cdn.dummyjson.com/product-images/50/thumbnail.jpg",
     images: [
