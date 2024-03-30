@@ -4,7 +4,7 @@ import { ShopContext } from "../../context/ShopContext";
 import { MdRemoveShoppingCart } from "react-icons/md";
 
 const CartItems = () => {
-  const { all_products, cartItems, removeFromCart } = useContext(ShopContext);
+  const { all_products, cartItems, removeFromCart,getTotalCartAmount } = useContext(ShopContext);
   return (
     <div className="cartitems">
       <div className="cartitems-header">
@@ -49,7 +49,7 @@ const CartItems = () => {
           <div className="">
             <div className="cartitems-total-item">
               <p>Subtotal</p>
-              <p>${0}</p>
+              <p>${getTotalCartAmount()}</p>
             </div>
             <hr />
             <div className="cartitems-total-item">
@@ -59,7 +59,7 @@ const CartItems = () => {
             <hr />
             <div className="cartitems-total-item">
               <h3>Total</h3>
-              <h3>${0}</h3>
+              <h3>${getTotalCartAmount()}</h3>
             </div>
           </div>
           <div className="btn">
