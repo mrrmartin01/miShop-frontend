@@ -1,12 +1,14 @@
-import {useState} from "react"
+import {useContext, useState} from "react"
 import { Link } from "react-router-dom";
 import { IoCart } from "react-icons/io5";
 
 import './Navbar.scss'
 import logo from '../assets/smiley.png'
+import { ShopContext } from "../../context/ShopContext";
 
 const Navbar = () => {
     const [menu, setMenu] = useState("shop");
+    const {getTotalCartItems} = useContext(ShopContext)
     const [showMenu, setShowMenu] = useState(false);
 
     const handleMenuToggle = () => {
@@ -52,7 +54,7 @@ const Navbar = () => {
         <Link to={'/cart'}>
         <span><IoCart /></span>
         </Link>
-        <div className="nav--cart--count">0</div>
+        <div className="nav--cart--count">{getTotalCartItems()}</div>
         <div className="hamburger" onClick={handleMenuToggle}>
           <span></span>
           <span></span>
